@@ -28,20 +28,29 @@ Supports conversational memory, multi-doc querying, and Chroma vector storage.
 
 ## 📦 Installation
 
+
+#### Clone this repo
+
 ```bash
-# Clone this repo
 git clone https://github.com/your-username/multi-docs-qa
 cd multi-docs-qa
+```
 
-# Create virtual environment
+#### Create virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
+```
 
-# Install Python dependencies
+#### Install Python dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-## 📝 `requirements.txt`
+#### 📝 `requirements.txt`
 
+```txt
 streamlit
 requests
 beautifulsoup4
@@ -50,9 +59,7 @@ langchain-community
 langchain-core
 chromadb
 ollama
-
 ```
-
 ## 🛠️ Ollama Setup
 
 1. Install Ollama: [https://ollama.com/download](https://ollama.com/download)
